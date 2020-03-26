@@ -1,0 +1,31 @@
+{
+  "name": "davicervo/calendar",
+  "type": "library",
+  "description": "Package calendar.",
+  "keywords": [
+    "calendar",
+    "calendar_business_day",
+    "php"
+  ],
+  "homepage": "https://github.com/davicervo/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Davi Cervo",
+      "email": "davicervo@gmail.com",
+      "homepage": "https://github.com/davicervo/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "nesbot/carbon": "^2.32.0",
+    "ext-json": "*",
+    "ext-calendar": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Calendar\\": "src/Calendar"
+    }
+  }
+}
